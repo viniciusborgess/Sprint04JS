@@ -1,0 +1,37 @@
+.efeito-button {
+  transform: scale(100%);
+  transition: 0.5s;
+}
+.efeito-button:hover {
+  background-color: black;
+  transition: 0.5s;
+  transform: scale(110%);
+}
+
+.efeito-cards {
+  transform: scale(100%);
+  transition: 0.5s;
+}
+.efeito-cards:hover {
+  transition: 0.5s;
+  transform: scale(108%);
+}
+
+.efeito-fotos {
+  transform: scale(100%);
+  transition: 0.5s;
+}
+.efeito-fotos:hover {
+  transition: 0.5s;
+  transform: scale(95%);
+}
+
+.dropdown-item {
+  background-color: #fff;
+}
+.dropdown-item:hover {
+  background-color: #96bfe0;
+  transition: 0.5s;
+}
+
+/*# sourceMappingURL=hover.css.map */

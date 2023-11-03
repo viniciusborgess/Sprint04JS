@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.nav-link {
+        color: black;
+        font-size: 18px;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.color-smartlight {
+    background-color: #2D38FF;
+    border-radius: 18px;
+}
+
+.button-saibamais {
+    background-color: #2D38FF;
+    border-radius: 25px;
+    width: 180px;
+    font-size: 20px;
+    height: 50px;
+}
+
+.cards {
+    width: 349px;
+    height: 237px;
+    border-radius: 50px;
+    background: #FDCD60;
+    box-shadow:  6px 6px 12px #e4b956,-6px -6px 12px #ffe26a;
+    transition: 0.5s;
+}
+
+.texto-azul-aplicativo {
+    color: #0B75C7;
+    font-size: 18px;
+}
+
+.icon-position {
+    position: relative;
+    top: 1px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+  }
+  
+  .grid-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+  }
+  
+  .grid-item {
+    text-align: center;
+
+    .grid-item img {
+        max-width: 100%;
+        height: auto;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .grid-row {
+      grid-template-columns: repeat(1, 1fr); /* 1 coluna por vez */
+    }
+  }
+
+
+footer {
+    padding: 25px;
+    background-color: #0d0938;
+}
+
+.logo-menu {
+    font-size: 27px;
+    color: var(--color-blue);
+
+    &:hover {
+        color: var(--color-blue);
+    }
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+}
+
+.nav-link {
+    font-weight: 600;
+
+    &:hover {
+        color: var(--color-blue);
+    }
+}
+
+
+#dropdown-basic {
+    border-radius: 18px;
+    background-color: #2D38FF;
+    margin-left: 30px;
+}

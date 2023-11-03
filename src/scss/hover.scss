@@ -1,0 +1,41 @@
+.efeito-button {
+    transform: scale(100%);
+    transition: 0.5s;
+
+
+    &:hover {
+        background-color: black;
+        transition: 0.5s;
+        transform: scale(110%);  
+    }
+}
+
+.efeito-cards {
+    transform: scale(100%);
+    transition: 0.5s;
+
+    &:hover {
+        transition: 0.5s;
+        transform: scale(108%);
+    }
+}
+
+.efeito-fotos {
+    transform: scale(100%);
+    transition: 0.5s;
+
+    &:hover {
+        transition: 0.5s;
+        transform: scale(95%);
+    }
+}
+
+.dropdown-item {
+    background-color: #fff;
+
+    &:hover {
+        background-color: #96bfe0;
+        transition: .5s;
+    }
+}
+
